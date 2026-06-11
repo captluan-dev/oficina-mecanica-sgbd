@@ -135,7 +135,7 @@ Regras:
 
 ---
 
-### Pessoa 4 – CRUD Peças e Estoque
+### CRUD Peças e Estoque
 
 Responsável por:
 
@@ -241,7 +241,7 @@ Cada integrante deve trabalhar dentro da sua própria pasta em `src/equipe/` par
 * Pessoa 1: `src/equipe/pessoa1/`
 * Pessoa 2: `src/equipe/pessoa2/`
 * Pessoa 3: `src/equipe/pessoa3/`
-* Pessoa 4: `src/equipe/pessoa4/`
+* Peças e Estoque: `src/equipe/pessoa4/`
 * Pessoa 5: `src/equipe/pessoa5/`
 
 Os avisos gerais da equipe ficam centralizados em [docs/AVISOS_DA_EQUIPE.md](docs/AVISOS_DA_EQUIPE.md).
@@ -262,7 +262,7 @@ Aviso: o cadastro de clientes precisa manter a regra de CPF único e permitir to
 
 Aviso: nenhum veículo pode existir sem cliente associado e a placa não pode ser duplicada. O CRUD de mecânicos também precisa ficar completo.
 
-### Pessoa 4 – CRUD Peças e Estoque
+### CRUD Peças e Estoque
 
 Aviso: controle entradas e saídas com atenção total ao estoque para não permitir saldo negativo.
 

@@ -11,7 +11,7 @@ Aviso: implemente o cadastro, consulta, atualização e exclusão de clientes se
 ## Pessoa 3 - CRUD Veículo e Mecânico
 Aviso: garanta que todo veículo tenha cliente associado e que a placa não possa se repetir. Faça também o CRUD completo de mecânicos.
 
-## Pessoa 4 - CRUD Peças e Estoque
+## CRUD Peças e Estoque
 Aviso: controle entradas e saídas de peças com cuidado para nunca permitir estoque negativo.
 
 ## Pessoa 5 - Integração e Relatórios
