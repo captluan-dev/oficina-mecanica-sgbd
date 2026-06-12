@@ -7,8 +7,9 @@ import java.time.LocalDate;
 public class OrdemServicoService {
 
     public OrdemServico abrirNovaOrdem(OrdemServico os) {
-        os.setData(LocalDate.now());
-        os.setValorTotal(BigDecimal.ZERO); // Começa zerada no orçamento
+        os.setDataAbertura(LocalDate.now());
+        os.setStatus("aberta"); // Status padrão que o Leonardo colocou no banco!
+        os.setValorTotal(BigDecimal.ZERO);
 
         System.out.println("Módulo de Integração: Abrindo OS para o veículo ID: " + os.getIdVeiculo());
         return os;
