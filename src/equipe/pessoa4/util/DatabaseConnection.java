@@ -7,10 +7,10 @@ import java.sql.SQLException;
 public final class DatabaseConnection {
 
     // Valores padrão usados quando as variáveis de ambiente não são informadas.
-    private static final String URL = System.getenv().getOrDefault(
+        private static final String URL = System.getenv().getOrDefault(
             "DB_URL",
-            "jdbc:mysql://localhost:3306/oficina_mecanica"
-    );
+            "jdbc:mysql://localhost:3306/oficina_db"
+        );
 
     private static final String USER = System.getenv().getOrDefault("DB_USER", "root");
     private static final String PASSWORD = System.getenv().getOrDefault("DB_PASSWORD", "");
